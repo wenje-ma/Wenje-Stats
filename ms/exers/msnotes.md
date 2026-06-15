@@ -15,7 +15,7 @@
 联合分布列 $p(x_1,x_2,\cdots,x_n)$ 针对离散情形, 其定义为
 
 $$
-p(x_1,x_2,\cdots,x_n)=P\{X_1=x_1,X_2=x_2,\dots,X_n=x_n\},
+p(x_1,x_2,\cdots,x_n)=P\{X_1=x_1,X_2=x_2,\cdots,X_n=x_n\},
 $$
 
 联合密度函数 $f(x_1,x_2,\cdots,x_n)$ 针对连续情形, 其定义为
@@ -28,7 +28,7 @@ $$
 
 $$
 \begin{aligned}
-&P\{X_1=x_1,X_2=x_2,\dots,X_n=x_n\}\\
+&P\{X_1=x_1,X_2=x_2,\cdots,X_n=x_n\}\\
 &=\prod_{i=1}^nP\{X_i=x_i\}=\prod_{i=1}^nP\{X=x_i\}.
 \end{aligned}
 $$
@@ -276,13 +276,13 @@ $$
 
 ### 极限定理
 
-CLT: 设独立同分布的 $X_1, X_2, \dots, X_n$ 均值为 $\mu$, 方差为 $\sigma^2$(有限), 则当 $n \to \infty$ 时,
+CLT: 设独立同分布的 $X_1, X_2, \cdots, X_n$ 均值为 $\mu$, 方差为 $\sigma^2$(有限), 则当 $n \to \infty$ 时,
 
 $$
 \frac{\overline{X}-\mu}{\sigma/\sqrt{n}} \xrightarrow{\mathcal{L}} N(0, 1)
 $$
 
-Khinchin 大数定律: 设独立同分布的 $X_1, X_2, \dots, X_n$ 数学期望有限, 则样本均值依概率收敛于总体均值.
+Khinchin 大数定律: 设独立同分布的 $X_1, X_2, \cdots, X_n$ 数学期望有限, 则样本均值依概率收敛于总体均值.
 
 Slutsky 定理: 设 ${X_n}$ 和 ${Y_n}$ 是两列随机变量, 若 $X_n \xrightarrow{\mathcal{L}} X$, 且 $Y_n \xrightarrow{P} c$, 则
 
