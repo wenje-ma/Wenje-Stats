@@ -15,7 +15,7 @@
 联合分布列 $p(x_1,x_2,\cdots,x_n)$ 针对离散情形, 其定义为
 
 $$
-p(x_1,x_2,\cdots,x_n)=P\{X_1=x_1,X_2=x_2,\dots,X_n=x_n\},
+p(x_1,x_2,\cdots,x_n)=P\{X_1=x_1,X_2=x_2,\cdots,X_n=x_n\},
 $$
 
 联合密度函数 $f(x_1,x_2,\cdots,x_n)$ 针对连续情形, 其定义为
@@ -28,7 +28,7 @@ $$
 
 $$
 \begin{aligned}
-&P\{X_1=x_1,X_2=x_2,\dots,X_n=x_n\}\\
+&P\{X_1=x_1,X_2=x_2,\cdots,X_n=x_n\}\\
 &=\prod_{i=1}^nP\{X_i=x_i\}=\prod_{i=1}^nP\{X=x_i\}.
 \end{aligned}
 $$
@@ -59,7 +59,7 @@ $$
 
 |Dis|P/f|E|D|
 |:---:|:---:|:---:|:---:|
-|$B(n,p)$|$P\{X=x\}=\binom{n}{x}p^x(1-p)^{n-x},\quad x=0,1,s,n$|$np$|$np(1-p)$|
+|$B(n,p)$|$P\{X=x\}=\binom{n}{x}p^x(1-p)^{n-x},\quad x=0,1,\cdots,n$|$np$|$np(1-p)$|
 |$P(\lambda)$|$P\{X=x\}=\lambda^xe^{-\lambda}/x!,\quad x=0,1,s$|$\lambda$|$\lambda$|
 |$G(p)$|$P\{X=x\}=(1-p)^{x-1}p,\quad x=1,2,s$|$1/p$|$(1-p)/p^2$|
 |$U[a, b]$|$f(x)=1/(b-a)I_{[a, b]}(x),\quad x\in\mathbb R$|$(a+b)/2$|$(b-a)^2/12$|
@@ -276,13 +276,13 @@ $$
 
 ### 极限定理
 
-CLT: 设独立同分布的 $X_1, X_2, \dots, X_n$ 均值为 $\mu$, 方差为 $\sigma^2$(有限), 则当 $n \to \infty$ 时,
+CLT: 设独立同分布的 $X_1, X_2, \cdots, X_n$ 均值为 $\mu$, 方差为 $\sigma^2$(有限), 则当 $n \to \infty$ 时,
 
 $$
 \frac{\overline{X}-\mu}{\sigma/\sqrt{n}} \xrightarrow{\mathcal{L}} N(0, 1)
 $$
 
-Khinchin 大数定律: 设独立同分布的 $X_1, X_2, \dots, X_n$ 数学期望有限, 则样本均值依概率收敛于总体均值.
+Khinchin 大数定律: 设独立同分布的 $X_1, X_2, \cdots, X_n$ 数学期望有限, 则样本均值依概率收敛于总体均值.
 
 Slutsky 定理: 设 ${X_n}$ 和 ${Y_n}$ 是两列随机变量, 若 $X_n \xrightarrow{\mathcal{L}} X$, 且 $Y_n \xrightarrow{P} c$, 则
 
